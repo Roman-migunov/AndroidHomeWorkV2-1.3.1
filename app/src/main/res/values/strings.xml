@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Мониторинг здоровья 2.0</string>
+    <string name="title_home">Начало</string>
+    <string name="title_dashboard">Измерения</string>
+    <string name="title_notifications">Результаты</string>
+    <string name="hintEditTextName">Введите имя</string>
+    <string name="hintEditTextAge">Введите возраст</string>
+    <string name="hintEditTextStep">Количество шагов в день</string>
+    <string name="hintEditTextWeight">Вес</string>
+    <string name="hintButtonSave">Сохранить</string>
+    <string name="textAuthor">Developer: Roman Migunov</string>
+    <string name="hintEditTextDate">Дата</string>
+    <string name="hintEditTextHighPressure">Верхнее давление</string>
+    <string name="hintEditTextLowPressure">Нижнее давление</string>
+    <string name="hintEditTextPulse">Пульс</string>
+    <string name="hintCheckBox">Тахикардия</string>
+</resources>
