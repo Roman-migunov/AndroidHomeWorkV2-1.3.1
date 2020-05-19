@@ -12,17 +12,7 @@
     <include layout="@layout/title" />
 
     <EditText
-        android:id="@+id/editTextName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="30dp"
-        android:hint="@string/hintEditTextName"/>
-
-    <EditText
-        android:id="@+id/editTextAge"
+        android:id="@+id/editTextStep"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -30,7 +20,18 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="30dp"
         android:inputType="number"
-        android:hint="@string/hintEditTextAge"/>
+        android:hint="@string/hintEditTextStep"/>
+
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/hintEditTextWeight"/>
 
     <Button
         android:id="@+id/buttonSave"
@@ -41,17 +42,4 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="30dp"
         android:text="@string/hintButtonSave" />
-
-    <TextView
-        android:id="@+id/author"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="10dp"
-        android:text="@string/textAuthor"
-        />
-
-
 </LinearLayout>
